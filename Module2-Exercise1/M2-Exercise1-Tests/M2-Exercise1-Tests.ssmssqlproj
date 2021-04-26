@@ -25,17 +25,17 @@
           <AssociatedConnUserName />
           <FullPath>build.sql</FullPath>
         </FileNode>
+        <FileNode Name="HandlingCosts_CalculateHandling_Tests.class.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vaim1-dbt-19:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vaim1-dbt-19</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HandlingCosts_CalculateHandling_Tests.class.sql</FullPath>
+        </FileNode>
         <FileNode Name="LostAndFound_CalculateShipping_Tests.class.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vaim1-dbt-19:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>vaim1-dbt-19</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>LostAndFound_CalculateShipping_Tests.class.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vaim1-dbt-19:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>vaim1-dbt-19</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

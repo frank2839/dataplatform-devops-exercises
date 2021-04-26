@@ -26,14 +26,14 @@
           <FullPath>build.sql</FullPath>
         </FileNode>
         <FileNode Name="Checkout.GetDiscount.sfn.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vaim1-dbt-19:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vaim1-dbt-19</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Checkout.GetDiscount.sfn.sql</FullPath>
         </FileNode>
         <FileNode Name="Checkout.schema.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vaim1-dbt-19:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vaim1-dbt-19</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Checkout.schema.sql</FullPath>
         </FileNode>

@@ -26,10 +26,22 @@
           <FullPath>build.sql</FullPath>
         </FileNode>
         <FileNode Name="create.demo.db.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vaim1-dbt-19:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vaim1-dbt-19</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>create.demo.db.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HandlingCosts.CalculateHandling.sfn.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vaim1-dbt-19:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vaim1-dbt-19</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HandlingCosts.CalculateHandling.sfn.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HandlingCosts.schema.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vaim1-dbt-19:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vaim1-dbt-19</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HandlingCosts.schema.sql</FullPath>
         </FileNode>
         <FileNode Name="LostAndFound.CalculateShipping.sfn.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vaim1-dbt-19:True</AssociatedConnectionMoniker>

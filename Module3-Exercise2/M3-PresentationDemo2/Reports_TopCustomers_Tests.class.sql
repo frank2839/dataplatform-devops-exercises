@@ -20,4 +20,3 @@ BEGIN
   EXEC tSQLt.AssertEqualsTable '#Expected','#Actual';
 
 END;
-GO
