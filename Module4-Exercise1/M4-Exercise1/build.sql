@@ -78,3 +78,11 @@ GO
 
 :r Reports.CustomerReservationSummary.ssp.sql
 GO
+
+
+/*
+|39|[Marketing_GetGreeting_Tests].[test returns correct greeting for another customer]                                                        |     13|Failure|
+|40|[Marketing_GetGreeting_Tests].[test returns correct greeting for John Smith]                                                              |      3|Failure|
+|41|[Marketing_EmailList_Tests].[test returns accurate reservation count for each customer]                                                   |   2300|Error  |
+
+*/

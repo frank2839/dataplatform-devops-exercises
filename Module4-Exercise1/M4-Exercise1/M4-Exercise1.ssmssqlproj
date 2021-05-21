@@ -2,7 +2,20 @@
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="M4-Exercise1">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
-      <Items />
+      <Items>
+        <ConnectionNode Name="vaim1-dbt-19:AIMCO\frank.huang">
+          <Created>2021-05-21T13:36:31.108626-06:00</Created>
+          <Type>SQL</Type>
+          <Server>vaim1-dbt-19</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
@@ -25,14 +38,14 @@
           <FullPath>Booking.schema.sql</FullPath>
         </FileNode>
         <FileNode Name="build.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vaim1-dbt-19:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vaim1-dbt-19</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>build.sql</FullPath>
         </FileNode>
         <FileNode Name="Checkout.GetDiscount.sfn.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vaim1-dbt-19:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vaim1-dbt-19</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Checkout.GetDiscount.sfn.sql</FullPath>
         </FileNode>
