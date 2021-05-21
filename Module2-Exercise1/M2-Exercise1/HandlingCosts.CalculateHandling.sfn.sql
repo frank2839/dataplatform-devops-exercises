@@ -1,10 +1,10 @@
 
-CREATE FUNCTION HandlingCosts.CalculateHandling (
+CREATE or alter FUNCTION HandlingCosts.CalculateHandling (
 @rewards int )
 RETURNS int 
 AS
 BEGIN
-	if @rewards > 10000
+	if @rewards >= 10000
 		RETURN 0
 	Return 37
 END

@@ -11,6 +11,11 @@ CREATE TABLE Booking.Reservations
   CustomerId INT,
   HotelId INT,
   AdditionalColumns BINARY(200),
+  
+  -- Frank added this line
+  ReservationYear int,
+  ReservationState nvarchar (1)
+
   CONSTRAINT [Booking.Reservations:FK-->Booking.Customers] 
     FOREIGN KEY (CustomerId) REFERENCES Booking.Customers(CustomerId),
   CONSTRAINT [Booking.Reservations:FK-->Vendors.Hotels]
