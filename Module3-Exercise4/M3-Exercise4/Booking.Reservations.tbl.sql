@@ -10,6 +10,7 @@ CREATE TABLE Booking.Reservations
     CONSTRAINT [Booking.Reservations:PK] PRIMARY KEY CLUSTERED,
   CustomerId INT,
   HotelId INT,
+  ReservationDate DATE,
   AdditionalColumns BINARY(200),
   
   -- Frank added this line
